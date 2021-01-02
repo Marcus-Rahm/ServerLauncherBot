@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ServerLauncherBot": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "LOG_LEVEL": "DEBUG"
+      }
+    }
+  }
+}
