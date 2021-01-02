@@ -41,6 +41,7 @@ namespace ServerLauncherBot
                 }))
                 .AddSingleton<CommandHandler>()
                 .AddSingleton<DiscordStartupService>()
+                .AddSingleton<ServerHandler>()
                 .AddSingleton<LoggingService>();
 
             //Add logging
