@@ -4,6 +4,7 @@ using Discord.WebSocket;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Serilog;
+using ServerLauncherBot.Modules.Minecraft;
 using ServerLauncherBot.Services;
 using System;
 using System.Collections.Generic;
@@ -41,6 +42,7 @@ namespace ServerLauncherBot
                 }))
                 .AddSingleton<CommandHandler>()
                 .AddSingleton<DiscordStartupService>()
+                .AddSingleton<MinecraftHandler>()
                 .AddSingleton<ServerHandler>()
                 .AddSingleton<LoggingService>();
 

@@ -1,4 +1,5 @@
 ﻿using ServerLauncherBot.Common;
+using ServerLauncherBot.Database;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -7,9 +8,11 @@ namespace ServerLauncherBot.Modules.Minecraft.Infrastructure
 {
     public class MinecraftServer : ServerBase
     {
-        public MinecraftServer(string serverFile, string args) : base(serverFile, args)
+        private MinecraftVersion _serverVersion;
+
+        public MinecraftServer(MinecraftVersion serverVersion, string args) : base(serverVersion.FileLocation, args)
         {
-            
+            _serverVersion = serverVersion;
         }
     }
 }

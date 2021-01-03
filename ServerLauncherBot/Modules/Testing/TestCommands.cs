@@ -25,7 +25,7 @@ namespace ServerLauncherBot.Modules.Testing
             _prefix = _config["prefix"];
         }
 
-        [Command("Test", RunMode = RunMode.Async)]
+        [Command("Echo", RunMode = RunMode.Async)]
         [Summary("Test function that returns what is writen in args")]
         public async Task Test([Remainder] string args)
         {
