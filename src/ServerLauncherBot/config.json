@@ -1,0 +1,10 @@
+﻿{
+  "Token": "BOT TOKEN",
+  "Prefix": "!",
+  "ServerHandler": {
+    "ServerListChannel": "835848769680572446"
+  },
+  "ConnectionStrings": {
+    "ServerLauncherDatabase": "Data Source=test.db;"
+  }
+}

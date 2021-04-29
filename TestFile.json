@@ -1,0 +1,11 @@
+{
+    "ServerName": "Test server 3",
+    "ServerIP": "192.15.48.121:9584",
+    "Description": "Minecraft Snapshot 21w10a test",
+    "Config": {
+        "ConfigName": "Minecraft",
+        "ThumbnailURL": "https://www.minecraft.net/content/dam/games/minecraft/screenshots/snapshot-21w10a-header.jpg.transform/minecraft-image-large/image.jpg",
+        "GameVersion": "21w10a",
+        "GameType": "Minecraft"
+    }
+}
